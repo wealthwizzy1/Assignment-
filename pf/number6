@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void)
+{
+    char character;
+
+    printf("Enter a character: ");
+    scanf(" %c", &character);
+
+    printf("The number equivalent is: %d\n", (unsigned char)character);
+
+    return 0;
+}

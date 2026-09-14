@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Wealth\n");
+
+    return 0;
+}
